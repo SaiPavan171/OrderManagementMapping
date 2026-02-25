@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="OrderManagement.DataAccess/OrderManagement.DataAccess.csproj" />
+  <Project Path="OrderManagement.Interfaces/OrderManagement.Interfaces.csproj" />
+  <Project Path="OrderManagement.Managers/OrderManagement.Managers.csproj" />
+  <Project Path="OrderManagement.Models/OrderManagement.Models.csproj" />
+  <Project Path="OrderManagement.Services/OrderManagement.Services.csproj" />
+  <Project Path="OrderManagement/OrderManagement.csproj" />
+</Solution>
