@@ -13,7 +13,7 @@ namespace OrderManagement.Models.DTO
         [Required]
         public bool IsDiscounted { get; set; }
         [Required]
-        public bool StockStatus { get; set; }
+        public string? StockStatus { get; set; }
 
         [Required]
         public string? CategoryName { get; set; }

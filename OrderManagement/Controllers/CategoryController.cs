@@ -33,13 +33,13 @@ namespace OrderManagement.Controllers
             return Ok("Category Deleted Succesfully!");
         }
         [HttpPost]
-        public async Task<IActionResult> CreateAsync(CategoryDto category)
+        public async Task<IActionResult> CreateAsync(CategoryCreate category)
         {
             await _service.CreateAsync(category);
             return Ok("Category Created Successfully!");
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAsync(int id , CategoryDto category)
+        public async Task<IActionResult> UpdateAsync(int id , CategoryCreate category)
         {
             await _service.UpdateAsync(id, category);
             return Ok("Category Updated Successfully!");
